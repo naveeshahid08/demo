@@ -1,0 +1,1 @@
+This is the deomo repistory where I am going to practice the JavaScript coding in the coming days and I will push it to the GitHub.

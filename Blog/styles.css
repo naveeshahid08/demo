@@ -1,0 +1,16 @@
+body{
+    background: salmon;
+    font-family:'pappings','sans-serif';
+    color: white;
+}
+#blogContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#blogContainer div{
+    background:white;
+    border-radius:5px;
+    color: #333;
+    padding: 2rem;
+
+}

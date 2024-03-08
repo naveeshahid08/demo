@@ -5,12 +5,22 @@ body{
 }
 #blogContainer{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+    
 }
 #blogContainer div{
     background:white;
     border-radius:5px;
     color: #333;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 2rem;
-
+    background-color: antiquewhite;
+}
+#blogContainer div p{
+    color: blue;
+    padding: 2rem;
+    
 }

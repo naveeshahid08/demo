@@ -17,7 +17,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 5rem;
+    height: 57px;
     background-color: rgb(8, 8, 136);
 }
 
@@ -38,17 +38,23 @@ nav ul li a {
 
 nav ul li a:hover {
     color: rgb(118, 118, 224);
-    font-size: 1.0rem;
+    font-size: 1.1rem;
 
 }
-
+main hr{
+    border: 0;
+    background:rgb(16, 8, 172);
+    margin: 40px 84px;
+    height: 2px;
+}
 .firstSection {
     display: flex;
     justify-content: space-around;
-    margin: 80px 0;
+    margin: 12.5vh 0;
     align-items: center;
-
-
+}
+.left{
+    font-size: 1.5rem;
 }
 
 .firstSection>div {
@@ -71,4 +77,14 @@ nav ul li a:hover {
 #element {
     color: rgb(67, 88, 207);
 
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+}
+.secondSection h1{
+    font-size: 1.5rem;
+}
+.text_gray{
+    color: gray;
 }
